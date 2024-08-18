@@ -1,0 +1,85 @@
+.group__img {
+  width: 26px;
+  height: 26px;
+  border-radius: 100px;
+}
+.groups {
+  padding: 0;
+  padding-right: 4px;
+  padding-left: 18px;
+  width: 154px;
+  margin: 0px;
+  overflow: scroll;
+  margin-bottom: 5px;
+}
+.groups__menu {
+  width: 190px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 3;
+}
+.groups__item {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+.groups__item:hover {
+  color: var(--yellow-color);
+  cursor: pointer;
+}
+.groups__container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px;
+  padding-top: 35px;
+  padding-right: 18px;
+  padding-left: 18px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  height: min-content;
+  max-height: 280px;
+  border-radius: 10px;
+  background-color: var(--white-color);
+}
+
+.groups__button {
+  padding-left: 7px;
+  padding-right: 7px;
+
+  border: 0;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.groups__button_active {
+  padding-top: 5px;
+  z-index: 2;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+.arrow {
+  background-image: url("../../images/arrow.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 7px;
+  width: 13px;
+  margin-left: 8px;
+}
+.groups::-webkit-scrollbar {
+  width: 4px; /* в основном для вертикальных полос прокрутки */
+  height: 0; /* в основном для горизонтальных полос прокрутки */
+}
+.groups::-webkit-scrollbar-thumb {
+  /* плашка-бегунок */
+  background: var(--white-blue-color);
+}
+.groups::-webkit-scrollbar-track {
+  /* фон */
+  background: inherit;
+}

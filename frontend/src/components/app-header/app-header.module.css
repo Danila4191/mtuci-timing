@@ -1,0 +1,28 @@
+.header {
+  height: 84px;
+  width: 100%;
+  background-color: var(--white-blue-color);
+}
+.header__container {
+  height: 84px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  background-image: url("../../images/Group\ 1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 28px;
+  width: 114px;
+  height: 100px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+

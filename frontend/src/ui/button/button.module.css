@@ -1,0 +1,25 @@
+.blue {
+  background-color: var(--blue-color);
+}
+.white {
+  background-color: var(--white-color);
+}
+.button {
+  border-radius: 100px;
+  width: min-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 0;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+}
+.small {
+  height: 30px;
+}
+.button:hover {
+  background-color: var(--yellow-color);
+}
+.button:disabled {
+  opacity: 0.4;
+}

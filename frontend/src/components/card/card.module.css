@@ -1,0 +1,12 @@
+.card {
+  width: 282px;
+  height: 350px;
+  margin: 0;
+  background-color: var(--white-blue-color);
+  border-radius: 30px;
+}
+@media (max-width: 1000px) {
+  .card {
+    margin: 0 auto;
+  }
+}
